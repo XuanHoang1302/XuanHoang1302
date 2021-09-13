@@ -1,0 +1,31 @@
+:root {
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --underline-color:rgb(139, 16, 16);
+    --text-has-color:rgb(199, 151, 62);
+
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 1500px;
+    height: 300px;
+    background-color: rgb(231, 182, 182);
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.body {
+    display: flex;
+}

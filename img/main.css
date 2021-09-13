@@ -1,0 +1,155 @@
+.header__img {
+    width: 30%;
+}
+.header__info {
+    margin: 30px 0;
+    height: 100%;
+}
+h2 {
+    line-height: 4px;
+    font-size: 45px;
+    color: rgb(168, 120, 31);
+}
+h3{
+    color: rgb(168, 120, 31); 
+    font-size: 18px;
+    margin-top: 30px;
+}
+.tittle {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(168, 120, 31);
+}
+p{
+    line-height: 6px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.info__extra{
+    display: flex;
+    font-size: 25px;
+}
+.info__img {
+    margin: 20px 20px 20px 80px;
+    border-radius: 45%;
+    width: 60%;
+    height:80%;
+    border: 6px solid rgb(187, 123, 4);
+}
+.extra {
+    margin: 5px 65px 5px 0;
+}
+.extra__add {
+    margin: 15px 0;
+}
+
+/* body hoc van*/
+.body__box1 {
+    width: 50%;
+    height: 100%;
+    margin: 0 15px;
+}
+.body__list {
+    margin-top: 50px;
+}
+.body__underline {
+    content: "";
+    width: 130px;
+    height: 9px;
+    background-color: var(--underline-color);
+    margin-top: 7px;
+}
+.note {
+    display: flex;
+}
+.info__address {
+    font-size: 18px;
+    color: var(--underline-color);
+    margin: 5px 0;
+    width: 10px;
+
+}
+.hocvan__underline {
+    content: "";
+    width: 1px;
+    height: 60px;
+    background-color: var(--underline-color) ;
+    margin: 8px 0 0 8.5px
+}
+.info__special {
+    margin: 5px 15px;
+}
+.info__text {
+    font-size: 18px;
+    color: var(--black-color);
+    width: 10px;
+    font-weight: 600;
+}
+.special__text {
+    margin-top: 15px;
+    font-size: 18px;
+}
+.text__has-color {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-has-color);
+    display: block;
+    margin: 15px 0 10px;
+}
+.text__not-color {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+    display: block;
+    margin: 5px 0;
+}
+/* body word */
+.work__underline {
+    content: "";
+    width: 1px;
+    height: 140px;
+    background-color: var(--underline-color) ;
+    margin: 8px 0 0 8.5px   
+}
+/* body action */
+.action__underline {
+    content: "";
+    width: 1px;
+    height: 90px;
+    background-color: var(--underline-color) ;
+    margin: 8px 0 0 8.5px   
+}
+/*skill */
+.special__text {
+    margin: 25px 0;
+}
+.special__text-radius {
+    margin-top: 6px;
+    display: flex;
+}
+.radius__has-color {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: var(--underline-color);
+    margin: 0 10px 0 3px;
+}
+.radius__not-color {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: 0 10px 0 3px;
+    background-color: var(--black-color);
+    opacity: 0.2;
+}
+/* END */
+.end {
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+.end__text {
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+}
